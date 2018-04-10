@@ -1,0 +1,129 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(26, 13, 171);
+  text-decoration: none;
+}
+
+/* visted link */
+a:visited {
+  color: rgb(26, 13, 171);
+  text-decoration: none;
+}
+
+/* hover over link */
+a:hover {
+  color: rgb(26, 13, 171);
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: rgb(26, 13, 171);
+  text-decoration: none;
+}
+
+.container {
+  color: rgba(0, 0, 0.87);
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  padding: 0;
+  margin 0;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  color: rgb(102, 102, 102);
+  background-color: rgb(242, 242, 242);  
+  min-width: 980px;
+  width: 100%;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.nav > li {
+  box-sizing: border-box;
+  padding: 20px 10px;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main-image {
+  margin: : 0 auto 20px auto;
+  width: 272px;
+  padding-top: 160px;
+  padding-left: 790px;
+  padding-bottom: 10px;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-searchbar {
+  margin: 0 auto;
+  width: 584px;
+  height: 44px;
+  margin-top: 5px;
+  border: solid 0.5px rgb(220, 220, 220);
+  box-shadow: -1px 10px 6px -11px rgba(0,0,0,0.47);
+}
+
+.main-buttons {
+  margin: 0 auto;
+  width: 430px;
+  height: 58px;
+  padding-left: 148px;
+  padding-top: 30px;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  color: rgb(102, 102, 102);
+  background-color: rgb(242, 242, 242);
+  min-width: 980px;
+  width: 100%;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-nav > li {
+  box-sizing: border-box;
+  margin: 14px 20px;
+}
