@@ -41,12 +41,13 @@ a:active {
 }
 
 .header {
-  position: absolute;
+  display: block;
   top: 0;
-  color: rgb(102, 102, 102);
-  background-color: rgb(242, 242, 242);  
-  min-width: 980px;
-  width: 100%;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
 }
 
 .header-left {
@@ -55,11 +56,7 @@ a:active {
 
 .header-right {
   float: right;
-}
-
-.nav > li {
-  box-sizing: border-box;
-  padding: 20px 10px;
+  padding-right: 25px;
 }
 
 li {
@@ -72,10 +69,11 @@ ul {
 }
 
 .main-image {
-  margin: : 0 auto 20px auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 272px;
-  padding-top: 160px;
-  padding-left: 790px;
+  padding-top: 200px;
   padding-bottom: 10px;
 }
 
@@ -85,7 +83,9 @@ form {
 }
 
 .main-searchbar {
-  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 584px;
   height: 44px;
   margin-top: 5px;
@@ -94,10 +94,12 @@ form {
 }
 
 .main-buttons {
-  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 430px;
-  height: 58px;
-  padding-left: 148px;
+  height: 30px;
+  padding-left: 200px;
   padding-top: 30px;
 }
 
@@ -109,10 +111,12 @@ p {
 .footer {
   position: absolute;
   bottom: 0;
+  width: 100%;
   color: rgb(102, 102, 102);
   background-color: rgb(242, 242, 242);
-  min-width: 980px;
-  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
 
 .footer-left {
@@ -121,9 +125,22 @@ p {
 
 .footer-right {
   float: right;
+  padding-right: 20px;
 }
 
-.footer-nav > li {
-  box-sizing: border-box;
-  margin: 14px 20px;
+#store {
+  padding-left: 20px;
+}
+
+#images {
+  padding-left: 15px;
+}
+
+#advertising {
+  padding-right: 20px;
+}
+
+#terms {
+  padding-left: 20px;
+  padding-right: 20px;
 }
